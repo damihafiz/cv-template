@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=, initial-scale=1.0">
+<meta name="author" content="Hafiz-Dev">
+<meta name="description" content="a single-page CV (Curriculum Vitae) using only HTML">    
+<title>Contact</title>
+</head>
+<body>
+    <header>
+        <a href="#">Your Name</a>
+        <nav>
+            <a href="#">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="articles.html">Articles</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="form">
+            <form action="/disco">
+                <br>
+                <label>First Name
+                    <input type="text" name="firstname"  required>
+                </label>
+
+                <label>Last Name
+                    <input type="text" name="lastname"  required>
+                </label>
+                
+                <label for="email">Email
+                    <input type="email" name="email" required>
+                </label>
+                
+                <label>Phone Number
+                    <input type="number" name="number"  required pattern="[0-9]{11}" step="1">
+                </label>
+                
+                <label>Message</label>
+                <textarea name="message"  maxlength="300" required></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        &copy; all rights reserved 2025
+    </footer>
+</body>
+</html>
