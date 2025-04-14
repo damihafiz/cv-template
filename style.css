@@ -1,0 +1,195 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+body{
+    margin: 20px;
+    border: 3px solid black;
+}
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+nav a{
+    margin-right: 10px;
+}
+span{
+    margin-left: 10px;
+    font-weight:900;
+}
+.first-section{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+}
+.first-section h1{
+    margin: 0;
+    font-family:"Caveat",cursive;
+    font-weight: 600;
+    font-size: 50px;
+    font-style: normal;
+}
+.first-section p{
+    margin: 0;
+    color: #8b8b8b;
+}
+.second-section{
+    display: flex;
+    border-top:2px solid black ;
+    border-bottom: 2px solid black;
+}
+.projects{
+    width: 25%;
+    border-right: 2px solid #000;
+}
+h2{
+    padding-left: 30px;
+    font-family: "Caveat", cursive;
+    font-size: 35px;
+}
+.projects ul{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.projects li{
+    padding:10px 30px;
+    border-bottom: 2px solid black;
+}
+.projects li:last-child{
+    border: none;
+}
+.projects li:hover{
+    background-color: #c4bfbf;
+}
+.work-exp{
+    width: 35%;
+    border-right:2px solid #000 ;
+    
+}
+.work-exp div{
+    padding:10px 0 10px 20px;
+}
+.work-exp div:nth-of-type(1){
+    border-bottom: 2px solid black;
+}
+.work-exp div:hover{
+    background-color: #c4bfbf;
+}
+.work-exp h3{
+    margin: 10px 0 ;
+    font-family: "Caveat",cursive;
+    font-size: 25px;
+}
+.work-exp p{
+    margin: 0;
+    padding: 10px 0;
+}
+.work-exp a{
+    color: blue;
+}
+.education{
+    width:30%;
+    padding-left: 30px;
+}
+
+
+
+.section-third{
+    padding: 30px;
+}
+.review{
+    display: flex;
+}
+
+.section-third h2{
+    font-family:"Caveat",cursive;
+    font-style: normal;
+    
+}
+.section-third p{
+   border: 2px solid black;
+   margin: 30px;
+   padding: 20px;
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+   border-radius: 10px;
+   color: black;
+}
+.section-third span{
+    color: #8b8b8b;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 5px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form {
+    display: flex;
+    flex-direction:column ;
+    width: 300px;
+}
+input{
+    display: block;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+@media (max-width:500px ){
+    header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .first-section{
+        padding: 0;
+    }
+    .second-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .projects, .work-exp, .education{
+        width: 100%;
+    }
+    .work-exp div{
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+    }
+    .work-exp div:last-child{
+        border-top:none ;
+    }
+    .education p{
+        width: 80%;
+    }
+    .review{
+        display: flex;
+        flex-direction: column;
+    }
+}
