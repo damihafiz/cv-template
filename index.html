@@ -2,72 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Hafiz-Dev">
     <meta name="description" content="a single-page CV (Curriculum Vitae) using only HTML">
-    <title>CV Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <title>Resume</title>
+    <style>
+        body{
+            font-family: "Nunito", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+        }
+        main{
+            padding:80px;
+            border: solid black 3px;
+            border-radius: 20px;
+        }
+        hr{
+            margin-right: 30%;
+            border:solid 2px black;
+        }
+        h2{
+            font-size: 23px;
+            color:green;
+        }
+        h3{
+            font-size: 25px;
+            color: blue;
+        }
+        p{
+            font-size: 20px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-    <a href="#">Your Name</a>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="articles.html">Articles</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    </header>
     <main>
-      <h1>Frontend Developer</h1>
-    <p>html only with proper layout, no styling</p>
-    <section>
-        <div>
-            <h2>Projects</h2>
-            <p>HTML Only</p>
-            <p>calculator</p>
-            <p>Quiz App</p>
-            <p>Countdown App</p>
-            <p>Product Upcoming Page</p>
-        </div>
-        <div>
-            <h2>Work Experience</h2>
-            <div>
-                <h3>roadmap.sh</h3>
-                <p>Solved all the frontend projects</p>
-                <a href="">Visit my profile</a>
-            </div>
-            <div>
-                <h3>OpenSource Work</h3>
-                <p>Contributed to 50 opensource projects. Made my own projects with 200 Github stars</p>
-                <a href="">Visit my Github Profile</a>
-            </div>
-        </div>
-        <div>
+        <hr>
+        <h1>Your Name</h1>
+        <h2>Junior Frontend Developer</h2>
+        <p>123 Your Street<br>
+            Your City, ST12345 <br>
+            (123) 456-7890 <br>
+            no_reply@example.com
+        </p>
+        <section>
+            <h2>Skills</h2>
+            <p>HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web Design,
+            Technical Writing, Presentation
+            </p>
+        </section>
+        <section>
             <h2>Education</h2>
-            <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon Organised 30 sessions</p>
-            <p>Courses I took</p>
+            <h3>School Name, Location - Degree</h3>
+            <p>Month 20xx to Month 20xx <br>
+            List of exciting things you did at university
+            </p>
+        </section>
+        <section>
+            <h2>Experience</h2>
+            <h3>Company Name, Location - Job Title</h3>
+            <p>Month 20xx to Month 20xx</p>
             <ul>
-                <li>Object Oriented Programming</li>
-                <li>Data Structures and Algorithms</li> 
-                <li>Web Engineering</li>
-                <li>Artificial Intelligence</li>    
-                <li>Human Computer Interaction</li>    
-                <li>Computer Graphics</li>    
-                <li>Database Management Systems</li>    
-                <li>Distributed Database Systems</li>    
-                <li>Discreet Mathematics</li>    
+                <li>List of achievements</li>
+                <li>List of achievements</li>
+                <li>List of achievements</li>
             </ul>
-        </div>
-    </section>
-    <section>
-        <h2>Reviews from my Teachers</h2>
-        <p>John doe was a brilliant student; always stood out with his <span>John Doe <br> Assistant Professor</span> </p>
-        <p>John doe was a brilliant student; always stood out with his <span>John Doe <br> Assistant Professor</span> </p>
-        <p>John doe was a brilliant student; always stood out with his <span>John Doe <br> Assistant Professor</span> </p>
-    </section>
-    <footer>
-        &copy; all rights reserved 2025
-    </footer>
-</main>
+            <h3>Company Name, Location - Job Title</h3>
+            <p>Month 20xx to Month 20xx</p>
+            <ul>
+                <li>List of achievements</li>
+                <li>List of achievements</li>
+                <li>List of achievements</li>
+            </ul>
+        </section>
+        <h3>Across the Internet</h3>
+        <p>Add your LinkedIn, GitHub profile links</p>
+    </main>
 </body>
 </html>
